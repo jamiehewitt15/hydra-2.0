@@ -7,3 +7,5 @@ import { Membership as Profile } from '@joystream/types/members'
 import { DB, getLogger } from '../../generated/hydra-processor'
 import { Block, Network } from '../../generated/graphql-server/src/modules/block/block.model'
 import { Membership } from '../../generated/graphql-server/src/modules/membership/membership.model'
+
+const logger = getLogger()
